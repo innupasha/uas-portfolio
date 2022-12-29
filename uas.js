@@ -450,8 +450,8 @@ lib.ssMetadata = [
 
 
 
-(lib.IMG_9936removebgpreview = function() {
-	this.initialize(img.IMG_9936removebgpreview);
+(lib.IMG_9936 = function() {
+	this.initialize(img.IMG_9936);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2084,2084);// helper functions:
 
@@ -1743,7 +1743,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).wait(14).call(this.frame_14).wait(11).call(this.frame_25).wait(20));
 
 	// Img
-	this.instance = new lib.IMG_9936removebgpreview();
+	this.instance = new lib.IMG_9936();
 	this.instance.setTransform(255,659,0.2576,0.2902);
 	this.instance._off = true;
 
@@ -1975,11 +1975,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/IMG_9936removebgpreview.png?1672300404417", id:"IMG_9936removebgpreview"},
-		{src:"images/uas_atlas_1.png?1672300404328", id:"uas_atlas_1"},
-		{src:"images/uas_atlas_2.png?1672300404328", id:"uas_atlas_2"},
-		{src:"images/uas_atlas_3.png?1672300404328", id:"uas_atlas_3"},
-		{src:"images/uas_atlas_4.png?1672300404329", id:"uas_atlas_4"}
+		{src:"images/IMG_9936.png", id:"IMG_9936"},
+		{src:"images/uas_atlas_1.png", id:"uas_atlas_1"},
+		{src:"images/uas_atlas_2.png", id:"uas_atlas_2"},
+		{src:"images/uas_atlas_3.png", id:"uas_atlas_3"},
+		{src:"images/uas_atlas_4.png", id:"uas_atlas_4"}
 	],
 	preloads: []
 };
